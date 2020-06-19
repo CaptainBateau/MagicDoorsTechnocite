@@ -1508,7 +1508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 601121120}
   - component: {fileID: 601121121}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: InvisibleWall Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2270,6 +2270,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &729285336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1079093648339725616, guid: b08be6393700dd94d8ec0da90844e583,
+    type: 3}
+  m_PrefabInstance: {fileID: 717657754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &729285337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729285336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0971365, y: 0.055678517, z: 0.19030908}
+  m_Center: {x: 0.009437636, y: -0.020142332, z: -0.00078496337}
 --- !u!1 &749338820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3921,7 +3940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1538576827}
   - component: {fileID: 1538576828}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: InvisibleWall Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
