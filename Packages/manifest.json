@@ -46,8 +46,8 @@
     "be.rhezom.toolboxdemo": "https://github.com/Rhezom/YohanToolBoxDemo.git",
     "be.selimgrote.selimtoolbox": "https://github.com/Arpeus/SelimGrote.git",
     "be.snake0803.romainctoolbox": "https://github.com/Snake0803/2020_06_15_RomainCToolBox.git",
-    "be.thomas.dinner": "https://github.com/WeeweeLSP/2020_06_02_UnityGitExo.git#3d3cd68a39cbfde799bdad1c4752632c681687df",
-    "be.vansantensebastien.sebar": "https://github.com/sebastien-vansanten/MyVRroom.git#5a87a5c45c542e76e6e84e2f22c1d33178f83750",
+    "be.thomas.dinner": "https://github.com/WeeweeLSP/2020_06_02_UnityGitExo.git",
+    "be.vansantensebastien.sebar": "https://github.com/sebastien-vansanten/MyVRroom.git",
     "com.unity.ide.vscode": "1.2.0",
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.14",
@@ -259,11 +259,11 @@
       "hash": "c2ef88f8bc9e7ee796c491f43f8e6f3f3abdc8b4"
     },
     "be.thomas.dinner": {
-      "revision": "3d3cd68a39cbfde799bdad1c4752632c681687df",
-      "hash": "3d3cd68a39cbfde799bdad1c4752632c681687df"
+      "revision": "HEAD",
+      "hash": "40f0b44354be958c5ddf1f57218ec303492be722"
     },
     "be.vansantensebastien.sebar": {
-      "revision": "5a87a5c45c542e76e6e84e2f22c1d33178f83750",
+      "revision": "HEAD",
       "hash": "5a87a5c45c542e76e6e84e2f22c1d33178f83750"
     }
   }
