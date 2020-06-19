@@ -1304,6 +1304,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: THE_EYE
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e40f67291a5df2a4b85a550e9f63883e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e40f67291a5df2a4b85a550e9f63883e, type: 3}
 --- !u!4 &6937025842196952072 stripped
