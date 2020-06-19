@@ -114,6 +114,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pfb_Epistache_MagicRoomLionel_var_001
       objectReference: {fileID: 0}
+    - target: {fileID: 5192141606407803670, guid: e0aec08cfbe63f64abd693926d354d40,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0aec08cfbe63f64abd693926d354d40, type: 3}
 --- !u!4 &8628307166044195497 stripped
