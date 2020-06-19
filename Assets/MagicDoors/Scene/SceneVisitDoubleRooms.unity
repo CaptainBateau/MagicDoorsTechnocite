@@ -446,6 +446,7 @@ GameObject:
   - component: {fileID: 183868006}
   - component: {fileID: 183868005}
   - component: {fileID: 183868007}
+  - component: {fileID: 183868008}
   m_Layer: 0
   m_Name: KeyboardDebug
   m_TagString: Untagged
@@ -507,9 +508,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183868004}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df126cf534ac5c74d9d1b04730192d28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_cheatCode: {fileID: 183868005}
+--- !u!114 &183868008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183868004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5bdc623d204394595a3ba3591d2695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_cheatCode: {fileID: 183868005}
@@ -1514,7 +1528,6 @@ GameObject:
   - component: {fileID: 689849407}
   - component: {fileID: 689849410}
   - component: {fileID: 689849409}
-  - component: {fileID: 689849411}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1613,19 +1626,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &689849411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689849405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e5bdc623d204394595a3ba3591d2695, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _grab: {fileID: 689849409}
 --- !u!1001 &717657754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1966,6 +1966,7 @@ GameObject:
   - component: {fileID: 876073713}
   - component: {fileID: 876073714}
   - component: {fileID: 876073715}
+  - component: {fileID: 876073716}
   m_Layer: 0
   m_Name: TriggerAreaAction
   m_TagString: Untagged
@@ -2013,6 +2014,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodyPart: 0
+--- !u!54 &876073716
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876073712}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &878953863
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,6 +2136,8 @@ GameObject:
   m_Component:
   - component: {fileID: 972727584}
   - component: {fileID: 972727585}
+  - component: {fileID: 972727587}
+  - component: {fileID: 972727586}
   m_Layer: 0
   m_Name: TriggerAreaAction
   m_TagString: Untagged
@@ -2153,6 +2172,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodyPart: 2
+--- !u!65 &972727586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972727583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &972727587
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972727583}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1059473731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,6 +2212,7 @@ GameObject:
   - component: {fileID: 1059473732}
   - component: {fileID: 1059473733}
   - component: {fileID: 1059473734}
+  - component: {fileID: 1059473735}
   m_Layer: 0
   m_Name: TriggerAreaAction
   m_TagString: Untagged
@@ -2211,6 +2260,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.3, z: 0.3}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1059473735
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059473731}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1092873382 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2114548469872285685, guid: 6f5b53b8ffad1374683d1ddf306d33a0,
@@ -6339,6 +6404,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: mrcActivationMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: _trackingOriginType
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
