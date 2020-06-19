@@ -479,23 +479,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_tagType: 8
   m_target: {fileID: 124444215}
---- !u!114 &124444232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124444213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad0ad9f1b12bf9b44bde65702ade49ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectTarget: []
-  _shaderApparitionAngle: 100
-  OnWithinSight:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &124444233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,6 +559,23 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &124444241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124444213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0ad9f1b12bf9b44bde65702ade49ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectTarget: []
+  _shaderApparitionAngle: 100
+  OnWithinSight:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &183868004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1937,13 +1937,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2211532faa54544f94460a894a2a189, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _head: {fileID: 124444212}
-  _cameraRig: {fileID: 124444215}
+  m_raycastLayer:
+    serializedVersion: 2
+    m_Bits: 4096
+  _userHead: {fileID: 124444212}
+  _rootToTeleport: {fileID: 124444215}
+  _usePointerAnchor: {fileID: 689505214}
   _laser: {fileID: 689505217}
-  _laserSteps: 20
-  _laserSegmentDistance: 1
-  _dropPerSegment: 0.1
-  _targetLayer: 10
+  _maxDistanceRaycast: 5
+  _hasHit: 0
+  _hitPosition: {x: 0, y: 0, z: 0}
+  _valideColor: {r: 0, g: 1, b: 0, a: 1}
+  _invalideColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!120 &689505217
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1993,8 +1998,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.0024757385
+        value: 0.032966614
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2276,7 +2281,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 717657754}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &729285337
+--- !u!65 &729285339
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
