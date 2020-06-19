@@ -39,7 +39,7 @@
     "be.lorenaquaranta.roomexamplelorena": "https://github.com/Lorena1804/2020_06_02_QuarantaLorena_MagicDoorRoom.git#7d685b0d1b37822b2ef9ff2ec6e3af5289fdd5f6",
     "be.louislebrun.firstroom": "https://github.com/Rudafox/2020_06_02_My_magic_room.git#28d0069e4f69b97bda67303d457dbb5460790927",
     "be.medericallard.toolbox": "https://github.com/MedeAllard/2020_06_15_AllardMedericToolBox.git",
-    "be.minaoumzil.roomnumberonetest": "https://github.com/Medusart/2020_06_02_Mina_Oumzil.git#df4bab9e8d8a650b2b64d7ee47c5800379d9bb14",
+    "be.minaoumzil.roomnumberonetest": "https://github.com/Medusart/2020_06_02_Mina_Oumzil.git#f87e1628434445a15102c57f96f8a8deb91080c5",
     "be.nevenaxel.testutility": "https://github.com/NevenAxel/NevenAxelToolBoxTechnocity.git",
     "be.nihiilus.anthonyroom": "https://github.com/Nihiilus/2020_06_02_MagicDoorRoom_Anthony.git#52280668a7a862e8e34893b5721c51e14fb175fa",
     "be.noefalesse.magicroom": "https://github.com/IkaNamTheIncongruous/Noe_Falesse_Git_Magicroom.git#0425e4debd3faf3b31c0bd10b3336ea2ad1512e0",
@@ -231,8 +231,8 @@
       "hash": "771584af82f4118fa09d0e152a3b50cec7e18ddd"
     },
     "be.minaoumzil.roomnumberonetest": {
-      "revision": "df4bab9e8d8a650b2b64d7ee47c5800379d9bb14",
-      "hash": "df4bab9e8d8a650b2b64d7ee47c5800379d9bb14"
+      "revision": "f87e1628434445a15102c57f96f8a8deb91080c5",
+      "hash": "f87e1628434445a15102c57f96f8a8deb91080c5"
     },
     "be.nevenaxel.testutility": {
       "revision": "HEAD",
