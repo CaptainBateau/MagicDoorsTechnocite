@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "be.3p0d.room": "https://github.com/3P0D/TNTC_exo_gitPackageRoom.git#11787178ddd454556ba519e8c1d1176b4bfed9ff",
+    "be.alexnavez.alexntoolbox": "https://github.com/NavezAlex/2020_06_15_AlexNToolboxDemo.git",
+    "be.alexpanda.toolbox": "https://github.com/PsymonPanda/2020_06_15_AlexPandaToolBox.git",
+    "be.captainbateau.bateautoolboxdemo": "https://github.com/CaptainBateau/MatteoToolbox.git",
     "be.coloniuslory.room": "https://github.com/KyanosAlpha/2020_06_02_ExoLoryRoom.git#da8dc7dcd87952b2c986c06cf25cd36b257805a0",
     "be.corentinh.room": "https://github.com/marcymon/2020_06_02_CorentinMagicDoor.git#53c592c21ce22f28340c4b41fa3e20866f2fd62b",
     "be.cyrillacroix.roomexamplecyril": "https://github.com/CyrilLcrx/2020_06_02_CyrilMagicRoom.git#37aaff7bf49254b5f392b66610e0dd9507785360",
@@ -28,13 +31,21 @@
     "be.eloistree.unitypackagefacilitator": "https://www.github.com/eloistree/2019_07_21_UnityPackageFacilitator.git",
     "be.eloistree.virtualrealitydebughands": "https://gitlab.com/eloistree/2019_06_30_VirtualRealityDebugHands.git",
     "be.eloistree.virtualrealitytags": "https://gitlab.com/eloistree/2020_06_17_VirtualRealityTags.git",
+    "be.enniomontina.enniotoolboxdemo": "https://github.com/EnnioMontina/2020_06_15_EnnioToolboxDemo.git",
     "be.epistache.room": "https://github.com/Epistache/Eloi_Techno_Epistache.git#315b6793b895184324059e48345ce8e5e5eb1c5c",
+    "be.jerem.keystrokeutility": "https://github.com/jeremyLetouche/2020_06_15_JeremToolBox.git",
+    "be.juliencoppenolle.kobaltoolbox": "https://github.com/K0b4l/2020_06_15_JulienToolbox.git",
     "be.laetitia.room": "https://github.com/xPixelle/2020_06_02_LaetitiaRoom_Test.git#d8e5007268433aa86a710f73183a09797f01b6ae",
     "be.lorenaquaranta.roomexamplelorena": "https://github.com/Lorena1804/2020_06_02_QuarantaLorena_MagicDoorRoom.git#7d685b0d1b37822b2ef9ff2ec6e3af5289fdd5f6",
     "be.louislebrun.firstroom": "https://github.com/Rudafox/2020_06_02_My_magic_room.git#28d0069e4f69b97bda67303d457dbb5460790927",
+    "be.medericallard.toolbox": "https://github.com/MedeAllard/2020_06_15_AllardMedericToolBox.git",
     "be.minaoumzil.roomnumberonetest": "https://github.com/Medusart/2020_06_02_Mina_Oumzil.git#df4bab9e8d8a650b2b64d7ee47c5800379d9bb14",
+    "be.nevenaxel.testutility": "https://github.com/NevenAxel/NevenAxelToolBoxTechnocity.git",
     "be.nihiilus.anthonyroom": "https://github.com/Nihiilus/2020_06_02_MagicDoorRoom_Anthony.git#52280668a7a862e8e34893b5721c51e14fb175fa",
     "be.noefalesse.magicroom": "https://github.com/IkaNamTheIncongruous/Noe_Falesse_Git_Magicroom.git#0425e4debd3faf3b31c0bd10b3336ea2ad1512e0",
+    "be.rhezom.toolboxdemo": "https://github.com/Rhezom/YohanToolBoxDemo.git",
+    "be.selimgrote.selimtoolbox": "https://github.com/Arpeus/SelimGrote.git",
+    "be.snake0803.romainctoolbox": "https://github.com/Snake0803/2020_06_15_RomainCToolBox.git",
     "be.thomas.dinner": "https://github.com/WeeweeLSP/2020_06_02_UnityGitExo.git#3d3cd68a39cbfde799bdad1c4752632c681687df",
     "be.vansantensebastien.sebar": "https://github.com/sebastien-vansanten/MyVRroom.git#5a87a5c45c542e76e6e84e2f22c1d33178f83750",
     "com.unity.ide.vscode": "1.2.0",
@@ -66,6 +77,34 @@
     "com.unity.modules.xr": "1.0.0"
   },
   "lock": {
+    "be.3p0d.room": {
+      "revision": "11787178ddd454556ba519e8c1d1176b4bfed9ff",
+      "hash": "11787178ddd454556ba519e8c1d1176b4bfed9ff"
+    },
+    "be.alexnavez.alexntoolbox": {
+      "revision": "HEAD",
+      "hash": "e9462143846d500b4841854d33bbde72ab4d2864"
+    },
+    "be.alexpanda.toolbox": {
+      "revision": "HEAD",
+      "hash": "52aff0e3bfa32f492800af31445d101a1370d6a3"
+    },
+    "be.captainbateau.bateautoolboxdemo": {
+      "revision": "HEAD",
+      "hash": "206ce85923e1093a12cfaf9d12ff079988017e02"
+    },
+    "be.coloniuslory.room": {
+      "revision": "da8dc7dcd87952b2c986c06cf25cd36b257805a0",
+      "hash": "da8dc7dcd87952b2c986c06cf25cd36b257805a0"
+    },
+    "be.corentinh.room": {
+      "revision": "53c592c21ce22f28340c4b41fa3e20866f2fd62b",
+      "hash": "53c592c21ce22f28340c4b41fa3e20866f2fd62b"
+    },
+    "be.cyrillacroix.roomexamplecyril": {
+      "revision": "37aaff7bf49254b5f392b66610e0dd9507785360",
+      "hash": "37aaff7bf49254b5f392b66610e0dd9507785360"
+    },
     "be.eloistree.androidturnaroundaccelero": {
       "revision": "HEAD",
       "hash": "807ae964d51366735ff28ddcbaddd94b4da023e9"
@@ -162,57 +201,73 @@
       "revision": "HEAD",
       "hash": "8eed0423583fbaaf0a78bbbfe1a5d0c4dda21af4"
     },
-    "be.thomas.dinner": {
-      "revision": "3d3cd68a39cbfde799bdad1c4752632c681687df",
-      "hash": "3d3cd68a39cbfde799bdad1c4752632c681687df"
-    },
-    "be.corentinh.room": {
-      "revision": "53c592c21ce22f28340c4b41fa3e20866f2fd62b",
-      "hash": "53c592c21ce22f28340c4b41fa3e20866f2fd62b"
-    },
-    "be.vansantensebastien.sebar": {
-      "revision": "5a87a5c45c542e76e6e84e2f22c1d33178f83750",
-      "hash": "5a87a5c45c542e76e6e84e2f22c1d33178f83750"
-    },
-    "be.cyrillacroix.roomexamplecyril": {
-      "revision": "37aaff7bf49254b5f392b66610e0dd9507785360",
-      "hash": "37aaff7bf49254b5f392b66610e0dd9507785360"
+    "be.enniomontina.enniotoolboxdemo": {
+      "revision": "HEAD",
+      "hash": "977de88e3c3ba3f5e82c42abb9317611635268e1"
     },
     "be.epistache.room": {
       "revision": "315b6793b895184324059e48345ce8e5e5eb1c5c",
       "hash": "315b6793b895184324059e48345ce8e5e5eb1c5c"
     },
+    "be.jerem.keystrokeutility": {
+      "revision": "HEAD",
+      "hash": "c344dd72baf771d357b48a871f4ebb3f23af4a62"
+    },
+    "be.juliencoppenolle.kobaltoolbox": {
+      "revision": "HEAD",
+      "hash": "4ee80a75086d237fc4f8d55a1b52f2ae9b4913a5"
+    },
     "be.laetitia.room": {
       "revision": "d8e5007268433aa86a710f73183a09797f01b6ae",
       "hash": "d8e5007268433aa86a710f73183a09797f01b6ae"
-    },
-    "be.minaoumzil.roomnumberonetest": {
-      "revision": "df4bab9e8d8a650b2b64d7ee47c5800379d9bb14",
-      "hash": "df4bab9e8d8a650b2b64d7ee47c5800379d9bb14"
-    },
-    "be.noefalesse.magicroom": {
-      "revision": "0425e4debd3faf3b31c0bd10b3336ea2ad1512e0",
-      "hash": "0425e4debd3faf3b31c0bd10b3336ea2ad1512e0"
     },
     "be.lorenaquaranta.roomexamplelorena": {
       "revision": "7d685b0d1b37822b2ef9ff2ec6e3af5289fdd5f6",
       "hash": "7d685b0d1b37822b2ef9ff2ec6e3af5289fdd5f6"
     },
-    "be.coloniuslory.room": {
-      "revision": "da8dc7dcd87952b2c986c06cf25cd36b257805a0",
-      "hash": "da8dc7dcd87952b2c986c06cf25cd36b257805a0"
+    "be.louislebrun.firstroom": {
+      "revision": "28d0069e4f69b97bda67303d457dbb5460790927",
+      "hash": "28d0069e4f69b97bda67303d457dbb5460790927"
+    },
+    "be.medericallard.toolbox": {
+      "revision": "HEAD",
+      "hash": "771584af82f4118fa09d0e152a3b50cec7e18ddd"
+    },
+    "be.minaoumzil.roomnumberonetest": {
+      "revision": "df4bab9e8d8a650b2b64d7ee47c5800379d9bb14",
+      "hash": "df4bab9e8d8a650b2b64d7ee47c5800379d9bb14"
+    },
+    "be.nevenaxel.testutility": {
+      "revision": "HEAD",
+      "hash": "970d2798d6c33b65feb9b2734649a6652256fdec"
     },
     "be.nihiilus.anthonyroom": {
       "revision": "52280668a7a862e8e34893b5721c51e14fb175fa",
       "hash": "52280668a7a862e8e34893b5721c51e14fb175fa"
     },
-    "be.louislebrun.firstroom": {
-      "revision": "28d0069e4f69b97bda67303d457dbb5460790927",
-      "hash": "28d0069e4f69b97bda67303d457dbb5460790927"
+    "be.noefalesse.magicroom": {
+      "revision": "0425e4debd3faf3b31c0bd10b3336ea2ad1512e0",
+      "hash": "0425e4debd3faf3b31c0bd10b3336ea2ad1512e0"
     },
-    "be.3p0d.room": {
-      "revision": "11787178ddd454556ba519e8c1d1176b4bfed9ff",
-      "hash": "11787178ddd454556ba519e8c1d1176b4bfed9ff"
+    "be.rhezom.toolboxdemo": {
+      "revision": "HEAD",
+      "hash": "6f6641b43a59ed10ec92764955e0a5accc83af9c"
+    },
+    "be.selimgrote.selimtoolbox": {
+      "revision": "HEAD",
+      "hash": "bb030bcd47cf3a52f1847d2605cf4fabb5c71362"
+    },
+    "be.snake0803.romainctoolbox": {
+      "revision": "HEAD",
+      "hash": "c71d6bf2090b5b3b5148e198c70b9e456ab2ffe8"
+    },
+    "be.thomas.dinner": {
+      "revision": "3d3cd68a39cbfde799bdad1c4752632c681687df",
+      "hash": "3d3cd68a39cbfde799bdad1c4752632c681687df"
+    },
+    "be.vansantensebastien.sebar": {
+      "revision": "5a87a5c45c542e76e6e84e2f22c1d33178f83750",
+      "hash": "5a87a5c45c542e76e6e84e2f22c1d33178f83750"
     }
   }
 }

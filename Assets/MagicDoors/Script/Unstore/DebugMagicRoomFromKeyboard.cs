@@ -57,10 +57,10 @@ public class DebugMagicRoomFromKeyboard : MonoBehaviour
         {
             m_cheatCode.SetOnOffDoorDebugJoinHighlight();
         }
-        if (Input.GetButton("Fire1"))
-        {
-            m_cheatCode.SpawnObjectInSceneForDebugging();
-        }
+        //if (Input.GetButton("Fire1"))
+        //{
+        //    m_cheatCode.SpawnObjectInSceneForDebugging();
+        //}
 
     }
 }
