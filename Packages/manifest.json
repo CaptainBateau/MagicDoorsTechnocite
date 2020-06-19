@@ -80,7 +80,7 @@
     },
     "be.alexnavez.alexntoolbox": {
       "revision": "HEAD",
-      "hash": "e9462143846d500b4841854d33bbde72ab4d2864"
+      "hash": "3c1ddb5d270ece9d8bede346e7e65d9cbced0a95"
     },
     "be.alexpanda.toolbox": {
       "revision": "HEAD",
@@ -208,11 +208,11 @@
     },
     "be.jerem.keystrokeutility": {
       "revision": "HEAD",
-      "hash": "c344dd72baf771d357b48a871f4ebb3f23af4a62"
+      "hash": "b996a33c46061c1d71f97372cfcbda1b27c1b7f0"
     },
     "be.juliencoppenolle.kobaltoolbox": {
       "revision": "HEAD",
-      "hash": "4ee80a75086d237fc4f8d55a1b52f2ae9b4913a5"
+      "hash": "eaf3b0c54750862395cac615ba5c57e71ead8011"
     },
     "be.laetitia.room": {
       "revision": "d8e5007268433aa86a710f73183a09797f01b6ae",
