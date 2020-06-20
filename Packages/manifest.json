@@ -1,14 +1,13 @@
 {
   "dependencies": {
     "be.3p0d.room": "https://github.com/3P0D/TNTC_exo_gitPackageRoom.git#11787178ddd454556ba519e8c1d1176b4bfed9ff",
-    "be.alexnavez.alexntoolbox": "https://github.com/NavezAlex/2020_06_15_AlexNToolboxDemo.git",
-    "be.alexpanda.toolbox": "https://github.com/PsymonPanda/2020_06_15_AlexPandaToolBox.git",
     "be.captainbateau.bateautoolboxdemo": "https://github.com/CaptainBateau/MatteoToolbox.git",
     "be.coloniuslory.room": "https://github.com/KyanosAlpha/2020_06_02_ExoLoryRoom.git#da8dc7dcd87952b2c986c06cf25cd36b257805a0",
     "be.corentinh.room": "https://github.com/marcymon/2020_06_02_CorentinMagicDoor.git#53c592c21ce22f28340c4b41fa3e20866f2fd62b",
     "be.cyrillacroix.roomexamplecyril": "https://github.com/CyrilLcrx/2020_06_02_CyrilMagicRoom.git#37aaff7bf49254b5f392b66610e0dd9507785360",
     "be.eloistree.androidturnaroundaccelero": "https://gitlab.com/EloiStree/2020_06_05_AndroidTurnAroundAccelero.git",
     "be.eloistree.debugcharactervr": "https://gitlab.com/EloiStree/2020_06_09_DebugCharacterVR.git",
+    "be.eloistree.fadecameraviewoncollision": "https://github.com/EloiStree/2020_06_15_FadeCameraViewOnCollision.git",
     "be.eloistree.ffmpeginunity": "https://gitlab.com/eloistree/2020_06_07_FFmpegInUnity.git",
     "be.eloistree.gizmotools": "https://gitlab.com/eloistree/2020_06_06_GizmoTools.git",
     "be.eloistree.ingamecredit": "https://gitlab.com/eloistree/2020_06_13_InGameCredit.git",
@@ -27,6 +26,7 @@
     "be.eloistree.roomlasersdemo": "https://github.com/EloiStree/2020_06_15_EloiMagicDoorJustLasersDemo.git",
     "be.eloistree.stereorecorder": "https://gitlab.com/eloistree/2020_06_06_StereoRecorder.git",
     "be.eloistree.stereoviewer": "https://gitlab.com/eloistree/2020_06_06_StereoViewer.git",
+    "be.eloistree.teleportvirtualrealityuser": "https://github.com/EloiStree/2020_06_15_TeleportVirtualRealityUser.git",
     "be.eloistree.unitydirectorystorageutility": "https://gitlab.com/eloistree/2020_04_28_UnityDirectoryStorageUtility.git",
     "be.eloistree.unitypackagefacilitator": "https://www.github.com/eloistree/2019_07_21_UnityPackageFacilitator.git",
     "be.eloistree.virtualrealitydebughands": "https://gitlab.com/eloistree/2019_06_30_VirtualRealityDebugHands.git",
@@ -78,13 +78,9 @@
       "revision": "11787178ddd454556ba519e8c1d1176b4bfed9ff",
       "hash": "11787178ddd454556ba519e8c1d1176b4bfed9ff"
     },
-    "be.alexnavez.alexntoolbox": {
+    "be.eloistree.teleportvirtualrealityuser": {
       "revision": "HEAD",
-      "hash": "3c1ddb5d270ece9d8bede346e7e65d9cbced0a95"
-    },
-    "be.alexpanda.toolbox": {
-      "revision": "HEAD",
-      "hash": "52aff0e3bfa32f492800af31445d101a1370d6a3"
+      "hash": "53553727a3d5b908552219768c701f599f2af6c4"
     },
     "be.captainbateau.bateautoolboxdemo": {
       "revision": "HEAD",
@@ -109,6 +105,10 @@
     "be.eloistree.debugcharactervr": {
       "revision": "HEAD",
       "hash": "6e400c355ccd9cb32c9e6db2d7c99a36f043348f"
+    },
+    "be.eloistree.fadecameraviewoncollision": {
+      "revision": "HEAD",
+      "hash": "cc1bdead643644cbdc309e0cee44eaaa0be98493"
     },
     "be.eloistree.ffmpeginunity": {
       "revision": "HEAD",
