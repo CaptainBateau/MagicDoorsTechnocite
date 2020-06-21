@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1895949987716074642}
   - component: {fileID: 1895949987716074643}
   m_Layer: 0
-  m_Name: Magic Room Loader Default
+  m_Name: Magic Room Loader Release
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53,9 +53,8 @@ MonoBehaviour:
   - {fileID: 6648917124430174442, guid: 583ff23417fea3a43a2fdbbac77ce637, type: 3}
   - {fileID: 5594004109738700596, guid: 5e9b6e842460966488b91530fbfb3ee3, type: 3}
   - {fileID: 821796219500521847, guid: b86931bec48ff6a429d3a115f64d3a0e, type: 3}
-  - {fileID: 856296822981146287, guid: af6a602c6f7f91943ab1835c13ca5e36, type: 3}
+  - {fileID: 4084206658052719591, guid: 707732437a60e2340a926cea7c820d76, type: 3}
   - {fileID: 7934192398464814667, guid: 0caa6d4f35cad7247882f7c2f43ae95c, type: 3}
   - {fileID: 4291166733858359124, guid: b24519c49b705564ba8322dfa29662a3, type: 3}
-  - {fileID: 4084206658052719591, guid: 707732437a60e2340a926cea7c820d76, type: 3}
   m_folderTLoadPrefabsOf: []
   m_resourcesRoomPrefabs: []

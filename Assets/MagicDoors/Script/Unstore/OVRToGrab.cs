@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OVRToGrab : MonoBehaviour
 {
-    public Grab _grab;
+    public MultiGrab _grab;
 
     public OVRInput.Button _grabButton;
 

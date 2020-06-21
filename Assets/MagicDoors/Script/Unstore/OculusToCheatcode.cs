@@ -22,6 +22,8 @@ public class OculusToCheatcode : MonoBehaviour
 
     public DebugMagicRoomCheatCode m_cheatCode;
 
+    private float m_switchRoomDelay;
+    public float m_timeBetweenSwitchRoom=0.5f;
     private void Start()
     {
         m_cheatCode.SetScreamerFPS(false);
@@ -29,18 +31,10 @@ public class OculusToCheatcode : MonoBehaviour
 
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.Four))
-        {
-            m_cheatCode.SwitchLightOnOff();
-        }
-        if (OVRInput.GetDown(OVRInput.Button.Three))
-        {
-            m_cheatCode.SwitchBetweenBestOfAndAll();
-        }
-        if (OVRInput.GetDown(OVRInput.Button.Start))
-        {
-            m_cheatCode.SwitchJimmyScreamerAndTexts();
-        }
+        if (m_switchRoomDelay >= 0f) 
+        m_switchRoomDelay -= Time.deltaTime;
+
+
 
         float rightTrigger = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger);
         float leftTrigger = OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger);
@@ -48,44 +42,38 @@ public class OculusToCheatcode : MonoBehaviour
         float rightGrab = OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger);
         float leftGrab = OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger);
 
-        if (rightTrigger > 0.5f)
+       
+
+
+        if (OVRInput.Get(OVRInput.Button.One) && OVRInput.Get(OVRInput.Button.Two)) 
         {
-
-            m_cheatCode.SpawnObjectInSceneForDebugging();
-        }
-        if (leftTrigger > 0.5f)
-        {
-
-            m_cheatCode.SpawnObjectInSceneForDebugging();
-        }
-        if (rightGrab > 0.5f)
-        {
-
-            m_cheatCode.SpawnObjectInSceneForDebugging();
-        }
-        if (leftGrab > 0.5f)
-        {
-
-            m_cheatCode.SpawnObjectInSceneForDebugging();
-        }
-
-
-        //if (OVRInput.Get(OVRInput.Button.One) && OVRInput.Get(OVRInput.Button.Two)) 
-        {
-
+            if (OVRInput.GetDown(OVRInput.Button.Four))
+            {
+                m_cheatCode.SetLoaderToAllParticipants();
+            }
+            if (OVRInput.GetDown(OVRInput.Button.Three))
+            {
+                m_cheatCode.SwitchLightOnOff();
+            }
+            if (OVRInput.GetDown(OVRInput.Button.Start))
+            {
+                m_cheatCode.SwitchJimmyScreamerAndTexts();
+            }
 
 
             Vector2 vl2 = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
-            if (vl2.x > 0.8f)
+            if (m_switchRoomDelay<0f && vl2.x > 0.8f)
             {
-
+                m_switchRoomDelay = m_timeBetweenSwitchRoom;
                 m_cheatCode.LoadAnOtherRoomInZoneA();
             }
-            if (vl2.x < -0.8f)
+            else if (m_switchRoomDelay < 0f && vl2.x < -0.8f)
             {
 
+                m_switchRoomDelay = m_timeBetweenSwitchRoom;
                 m_cheatCode.LoadAnOtherRoomInZoneB();
             }
+            
             if (vl2.y > 0.8f)
             {
 
@@ -110,6 +98,30 @@ public class OculusToCheatcode : MonoBehaviour
             if (vr2.y < -0.8f)
             {
 
+            }
+
+
+
+            if (rightTrigger > 0.5f)
+            {
+                m_cheatCode.SetHandOnOff(true);
+                m_cheatCode.SpawnObjectInSceneForDebugging();
+            }
+            if (leftTrigger > 0.5f)
+            {
+
+                m_cheatCode.SetHandOnOff(false);
+                m_cheatCode.SpawnObjectInSceneForDebugging();
+            }
+            if (rightGrab > 0.5f)
+            {
+
+                m_cheatCode.SpawnObjectInSceneForDebugging();
+            }
+            if (leftGrab > 0.5f)
+            {
+
+                m_cheatCode.SpawnObjectInSceneForDebugging();
             }
 
         }

@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "be.3p0d.room": "https://github.com/3P0D/TNTC_exo_gitPackageRoom.git#11787178ddd454556ba519e8c1d1176b4bfed9ff",
-    "be.captainbateau.bateautoolboxdemo": "https://github.com/CaptainBateau/MatteoToolbox.git",
     "be.coloniuslory.room": "https://github.com/KyanosAlpha/2020_06_02_ExoLoryRoom.git#da8dc7dcd87952b2c986c06cf25cd36b257805a0",
     "be.corentinh.room": "https://github.com/marcymon/2020_06_02_CorentinMagicDoor.git#53c592c21ce22f28340c4b41fa3e20866f2fd62b",
     "be.cyrillacroix.roomexamplecyril": "https://github.com/CyrilLcrx/2020_06_02_CyrilMagicRoom.git#37aaff7bf49254b5f392b66610e0dd9507785360",
@@ -18,6 +17,7 @@
     "be.eloistree.lookingeyesforvr": "https://gitlab.com/EloiStree/2020_06_10_LookingEyesForVR.git",
     "be.eloistree.magicdoorscore": "https://gitlab.com/eloistree/2020_05_28_MagicDoorsCore.git",
     "be.eloistree.magicdoorsroompattern": "https://github.com/EloiStree/2020_05_28_MagicDoorsRoomPattern.git",
+    "be.eloistree.multiobjectsgrabber": "https://github.com/EloiStree/2020_06_20_MultiObjectsGrabber.git",
     "be.eloistree.questhandapitotransform": "https://gitlab.com/eloistree/2019_12_28_questhandapitotransform.git",
     "be.eloistree.quickgitutility": "https://www.github.com/eloistree/2019_07_21_QuickGitUtility.git",
     "be.eloistree.radiocomments": "https://github.com/EloiStree/2020_06_16_RadioComments.git",
@@ -36,7 +36,7 @@
     "be.jerem.keystrokeutility": "https://github.com/jeremyLetouche/2020_06_15_JeremToolBox.git",
     "be.juliencoppenolle.kobaltoolbox": "https://github.com/K0b4l/2020_06_15_JulienToolbox.git",
     "be.laetitia.room": "https://github.com/xPixelle/2020_06_02_LaetitiaRoom_Test.git#d8e5007268433aa86a710f73183a09797f01b6ae",
-    "be.lorenaquaranta.roomexamplelorena": "https://github.com/Lorena1804/2020_06_02_QuarantaLorena_MagicDoorRoom.git#7d685b0d1b37822b2ef9ff2ec6e3af5289fdd5f6",
+    "be.lorenaquaranta.roomexamplelorena": "https://github.com/Lorena1804/2020_06_02_QuarantaLorena_MagicDoorRoom.git#bf223ded44512e3f8fe12a92ed529567e39e4073",
     "be.louislebrun.firstroom": "https://github.com/Rudafox/2020_06_02_My_magic_room.git#28d0069e4f69b97bda67303d457dbb5460790927",
     "be.medericallard.toolbox": "https://github.com/MedeAllard/2020_06_15_AllardMedericToolBox.git",
     "be.minaoumzil.roomnumberonetest": "https://github.com/Medusart/2020_06_02_Mina_Oumzil.git#f87e1628434445a15102c57f96f8a8deb91080c5",
@@ -46,14 +46,14 @@
     "be.rhezom.toolboxdemo": "https://github.com/Rhezom/YohanToolBoxDemo.git",
     "be.selimgrote.selimtoolbox": "https://github.com/Arpeus/SelimGrote.git",
     "be.snake0803.romainctoolbox": "https://github.com/Snake0803/2020_06_15_RomainCToolBox.git",
-    "be.thomas.dinner": "https://github.com/WeeweeLSP/2020_06_02_UnityGitExo.git",
+    "be.thomas.dinner": "https://github.com/WeeweeLSP/2020_06_02_UnityGitExo.git#e4b45f92575c4cfece3568371a38401efc8f785c",
     "be.vansantensebastien.sebar": "https://github.com/sebastien-vansanten/MyVRroom.git",
     "com.unity.ide.vscode": "1.2.0",
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.14",
     "com.unity.ugui": "1.0.0",
-    "com.unity.xr.oculus.standalone": "2.38.4",
-    "com.unity.xr.openvr.standalone": "2.0.5",
+    "com.unity.xr.management": "3.2.12",
+    "com.unity.xr.oculus": "1.3.4",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
@@ -78,14 +78,6 @@
       "revision": "11787178ddd454556ba519e8c1d1176b4bfed9ff",
       "hash": "11787178ddd454556ba519e8c1d1176b4bfed9ff"
     },
-    "be.eloistree.teleportvirtualrealityuser": {
-      "revision": "HEAD",
-      "hash": "53553727a3d5b908552219768c701f599f2af6c4"
-    },
-    "be.captainbateau.bateautoolboxdemo": {
-      "revision": "HEAD",
-      "hash": "206ce85923e1093a12cfaf9d12ff079988017e02"
-    },
     "be.coloniuslory.room": {
       "revision": "da8dc7dcd87952b2c986c06cf25cd36b257805a0",
       "hash": "da8dc7dcd87952b2c986c06cf25cd36b257805a0"
@@ -108,7 +100,7 @@
     },
     "be.eloistree.fadecameraviewoncollision": {
       "revision": "HEAD",
-      "hash": "cc1bdead643644cbdc309e0cee44eaaa0be98493"
+      "hash": "c4e93af8e6eb2a344baedb204f6f27a29c3dc0ba"
     },
     "be.eloistree.ffmpeginunity": {
       "revision": "HEAD",
@@ -150,6 +142,10 @@
       "revision": "HEAD",
       "hash": "e8ca58048be106b0cb46bc212ea5a6fba9d9faf3"
     },
+    "be.eloistree.multiobjectsgrabber": {
+      "revision": "HEAD",
+      "hash": "5c1d671aa179ef209bf76de1758a11289b660105"
+    },
     "be.eloistree.questhandapitotransform": {
       "revision": "HEAD",
       "hash": "2801a8c586f066b4493d541beb3d123f36523cde"
@@ -181,6 +177,10 @@
     "be.eloistree.stereoviewer": {
       "revision": "HEAD",
       "hash": "4cb67f20b79f6e1f6e73eea313bc53fa69b90552"
+    },
+    "be.eloistree.teleportvirtualrealityuser": {
+      "revision": "HEAD",
+      "hash": "7d51ab81e804ef2dd613fd0d9294a083f1888c13"
     },
     "be.eloistree.unitydirectorystorageutility": {
       "revision": "HEAD",
@@ -219,8 +219,8 @@
       "hash": "d8e5007268433aa86a710f73183a09797f01b6ae"
     },
     "be.lorenaquaranta.roomexamplelorena": {
-      "revision": "7d685b0d1b37822b2ef9ff2ec6e3af5289fdd5f6",
-      "hash": "7d685b0d1b37822b2ef9ff2ec6e3af5289fdd5f6"
+      "revision": "bf223ded44512e3f8fe12a92ed529567e39e4073",
+      "hash": "bf223ded44512e3f8fe12a92ed529567e39e4073"
     },
     "be.louislebrun.firstroom": {
       "revision": "28d0069e4f69b97bda67303d457dbb5460790927",
@@ -259,8 +259,8 @@
       "hash": "c2ef88f8bc9e7ee796c491f43f8e6f3f3abdc8b4"
     },
     "be.thomas.dinner": {
-      "revision": "HEAD",
-      "hash": "40f0b44354be958c5ddf1f57218ec303492be722"
+      "revision": "e4b45f92575c4cfece3568371a38401efc8f785c",
+      "hash": "e4b45f92575c4cfece3568371a38401efc8f785c"
     },
     "be.vansantensebastien.sebar": {
       "revision": "HEAD",

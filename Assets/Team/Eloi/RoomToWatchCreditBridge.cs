@@ -19,7 +19,7 @@ public class RoomToWatchCreditBridge : MonoBehaviour
         InvokeRepeating("CheckCredit", 0, m_timeBetweenCheck);
     }
 
-    private void CheckCredit()
+    public void CheckCredit()
     {
         m_currentSelection = GetPseudonymeOfNearestCredit();
         if (m_currentSelection != m_previousSelection) {
