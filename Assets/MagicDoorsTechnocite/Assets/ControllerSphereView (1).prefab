@@ -20,7 +20,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &267909536225260913
 Transform:
@@ -57,7 +57,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -272,7 +272,7 @@ PrefabInstance:
     - target: {fileID: 3342401997408076638, guid: ea77302137461bb438df932c749fc6d7,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3342401997408076639, guid: ea77302137461bb438df932c749fc6d7,
         type: 3}
@@ -283,6 +283,8 @@ PrefabInstance:
     - {fileID: 3120324223576411326, guid: ea77302137461bb438df932c749fc6d7, type: 3}
     - {fileID: 3342401997408076625, guid: ea77302137461bb438df932c749fc6d7, type: 3}
     - {fileID: 3342401997408076624, guid: ea77302137461bb438df932c749fc6d7, type: 3}
+    - {fileID: 3120324223576411324, guid: ea77302137461bb438df932c749fc6d7, type: 3}
+    - {fileID: 3120324223576411325, guid: ea77302137461bb438df932c749fc6d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ea77302137461bb438df932c749fc6d7, type: 3}
 --- !u!1 &2952760554911815724 stripped
 GameObject:
@@ -318,22 +320,27 @@ PrefabInstance:
     - target: {fileID: 738536244431877902, guid: ab66a48a60a75f744a24d8cb8ca56e60,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1992616395651833360, guid: ab66a48a60a75f744a24d8cb8ca56e60,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.05
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1992616395651833360, guid: ab66a48a60a75f744a24d8cb8ca56e60,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1992616395651833360, guid: ab66a48a60a75f744a24d8cb8ca56e60,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479259989324514117, guid: ab66a48a60a75f744a24d8cb8ca56e60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5957934524574368633, guid: ab66a48a60a75f744a24d8cb8ca56e60,
         type: 3}
@@ -345,6 +352,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b5e2e721798ebd74f82b8258eeaedb89, type: 2}
+    - target: {fileID: 5957934524574368633, guid: ab66a48a60a75f744a24d8cb8ca56e60,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957934524574368633, guid: ab66a48a60a75f744a24d8cb8ca56e60,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957934524574368633, guid: ab66a48a60a75f744a24d8cb8ca56e60,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8609053321046699304, guid: ab66a48a60a75f744a24d8cb8ca56e60,
         type: 3}
       propertyPath: m_Name
@@ -420,8 +442,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 738536244431877902, guid: ab66a48a60a75f744a24d8cb8ca56e60, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab66a48a60a75f744a24d8cb8ca56e60, type: 3}
 --- !u!4 &8416750704655332570 stripped
 Transform:

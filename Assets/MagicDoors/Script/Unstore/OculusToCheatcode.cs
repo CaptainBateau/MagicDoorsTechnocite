@@ -42,10 +42,10 @@ public class OculusToCheatcode : MonoBehaviour
         float rightGrab = OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger);
         float leftGrab = OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger);
 
-       
 
 
-        if (OVRInput.Get(OVRInput.Button.One) && OVRInput.Get(OVRInput.Button.Two)) 
+        m_cheatOn = OVRInput.Get(OVRInput.Button.One) && OVRInput.Get(OVRInput.Button.Two);
+        if (m_cheatOn) 
         {
             if (OVRInput.GetDown(OVRInput.Button.Four))
             {
@@ -148,5 +148,12 @@ public class OculusToCheatcode : MonoBehaviour
             m_cheatCode.SpawnObjectInSceneForDebugging();
         }
 
+        if (m_cheatOn != m_cheatOnPrevious)
+        {
+           m_cheatCode.NotifyCheatOnOff(m_cheatOn);
+        }
+        m_cheatOnPrevious = m_cheatOn;
     }
+    private bool m_cheatOnPrevious;
+    private bool m_cheatOn;
 }

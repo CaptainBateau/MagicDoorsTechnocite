@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 2320846069037986577}
   - component: {fileID: 3283298147102697993}
   - component: {fileID: -6657304308096064473}
+  - component: {fileID: 2692570704561078243}
+  - component: {fileID: 4832685503980690061}
+  - component: {fileID: 3220256814157178883}
   m_Layer: 9
   m_Name: GrabbableTableObject
   m_TagString: Untagged
@@ -43,8 +46,8 @@ Rigidbody:
   m_GameObject: {fileID: 7238617994616931313}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 0.3
+  m_AngularDrag: 0.3
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -150,12 +153,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_toObserve: {fileID: 5922204296538124770}
   m_toApplyOn: {fileID: 2148020320130366324}
-  m_forceByDeltaMove: 1
-  m_forceMultiplictorRotation: 0.01
+  m_forceByDeltaMove: 3
+  m_forceMultiplictorRotation: 0.02
   m_forceCumulated: {x: 0, y: 0, z: 1}
   m_moveForce: 1
   m_useRotation: 1
-  m_rotationForceCumulated: {x: -90, y: 0, z: 0}
+  m_rotationForceCumulated: {x: 0, y: 0, z: 0}
   m_rotateForce: 1
   m_recordForce: 0
   euleurDelta: {x: 0, y: 0, z: 0}
@@ -172,3 +175,83 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2692570704561078243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238617994616931313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563a8cc58dfaad4418cbff0abf180f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_observedPoint: {fileID: 5922204296538124770}
+  m_playerHead: {fileID: 0}
+  m_distanceToEat: 0.3
+  m_checkDelay: 0.5
+  m_startEating:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4832685503980690061}
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3220256814157178883}
+        m_MethodName: TriggerDestruction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_stopEating:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isEating: 0
+--- !u!114 &4832685503980690061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238617994616931313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c230b59695b98cf4d98110d89374eeb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_where: {fileID: 5922204296538124770}
+  m_prefab: {fileID: 2527307937644366980, guid: c57e6128b5a1c3047b79461cb56cbb78,
+    type: 3}
+  m_destroyAfterSpawn: 1
+  m_destroyAfter: 3
+--- !u!114 &3220256814157178883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238617994616931313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e326a43ea5ca54296c2fc857d6be10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_onDevDestroyRequest:
+    m_PersistentCalls:
+      m_Calls: []
+  m_callBeforeOnDestroy:
+    m_PersistentCalls:
+      m_Calls: []

@@ -362,6 +362,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 856296822981146272}
     m_Modifications:
+    - target: {fileID: 348487708279104557, guid: abd3fc1affd562146aab35cfe6eb3ffd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 385976954508150388, guid: abd3fc1affd562146aab35cfe6eb3ffd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288838930239278153, guid: abd3fc1affd562146aab35cfe6eb3ffd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 5515181360703500123, guid: abd3fc1affd562146aab35cfe6eb3ffd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -421,6 +436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ColliderNoeRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476345366289962942, guid: abd3fc1affd562146aab35cfe6eb3ffd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abd3fc1affd562146aab35cfe6eb3ffd, type: 3}

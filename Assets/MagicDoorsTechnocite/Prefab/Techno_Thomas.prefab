@@ -310,6 +310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColliderThomasRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 273769868899644339, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 393110983187787571, guid: 5111db45555dd064c96abe5a74412e9d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -364,6 +369,66 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 812017835944987767, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064304801516361834, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2485438088563196763, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893522877507845485, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5930380617742622013, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932698232107458785, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945225887341811088, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385529893530238800, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257251904139643157, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631394632386801615, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.54259014
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631394632386801615, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2547
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631394632386801615, guid: 5111db45555dd064c96abe5a74412e9d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8162549
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5111db45555dd064c96abe5a74412e9d, type: 3}

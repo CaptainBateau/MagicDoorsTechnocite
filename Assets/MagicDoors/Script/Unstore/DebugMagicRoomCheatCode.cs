@@ -2,9 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DebugMagicRoomCheatCode : MonoBehaviour
 {
+    [Header("Listener")]
+    public UnityEvent m_onCheatActivated;
+    public UnityEvent m_onCheatDeactivated;
+
+    [Header("Params")]
     public Light m_defautLight;
     public JimmyScreamer m_jimmy;
     public PerfsDestroy m_perfDestroyer;
@@ -22,6 +28,15 @@ public class DebugMagicRoomCheatCode : MonoBehaviour
     public MagicRoomLoader m_bestOf;
     public bool m_displayHand = true;
     public GameObject [] m_handLinkedGameObject;
+
+    public void NotifyCheatOnOff(bool value) {
+        
+            if (value)
+                m_onCheatActivated.Invoke();
+            else m_onCheatDeactivated.Invoke();
+       
+
+    }
 
     public void SetScreamerFPS(bool isOn)
     {

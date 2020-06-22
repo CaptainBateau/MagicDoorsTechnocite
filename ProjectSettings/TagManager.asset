@@ -19,8 +19,8 @@ TagManager:
   - WallLimit
   - Eye
   - Ground
-  - 
-  - 
+  - PlayerCollider
+  - ObjectCollider
   - 
   - 
   - 

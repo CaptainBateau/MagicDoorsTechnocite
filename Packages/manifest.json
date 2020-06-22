@@ -41,11 +41,11 @@
     "be.medericallard.toolbox": "https://github.com/MedeAllard/2020_06_15_AllardMedericToolBox.git",
     "be.minaoumzil.roomnumberonetest": "https://github.com/Medusart/2020_06_02_Mina_Oumzil.git#f87e1628434445a15102c57f96f8a8deb91080c5",
     "be.nevenaxel.testutility": "https://github.com/NevenAxel/NevenAxelToolBoxTechnocity.git",
-    "be.nihiilus.anthonyroom": "https://github.com/Nihiilus/2020_06_02_MagicDoorRoom_Anthony.git#52280668a7a862e8e34893b5721c51e14fb175fa",
+    "be.nihiilus.anthonyroom": "https://github.com/Nihiilus/2020_06_02_MagicDoorRoom_Anthony.git",
     "be.noefalesse.magicroom": "https://github.com/IkaNamTheIncongruous/Noe_Falesse_Git_Magicroom.git#0425e4debd3faf3b31c0bd10b3336ea2ad1512e0",
     "be.rhezom.toolboxdemo": "https://github.com/Rhezom/YohanToolBoxDemo.git",
-    "be.selimgrote.selimtoolbox": "https://github.com/Arpeus/SelimGrote.git",
-    "be.snake0803.romainctoolbox": "https://github.com/Snake0803/2020_06_15_RomainCToolBox.git",
+    "be.selimgrote.selimtoolbox": "https://github.com/EloiStree/2020_06_21_SelimChains.git",
+    "be.snake0803.romainctoolbox": "https://github.com/EloiStree/2020_06_15_RomainCreditSystem.git",
     "be.thomas.dinner": "https://github.com/WeeweeLSP/2020_06_02_UnityGitExo.git#e4b45f92575c4cfece3568371a38401efc8f785c",
     "be.vansantensebastien.sebar": "https://github.com/sebastien-vansanten/MyVRroom.git",
     "com.unity.ide.vscode": "1.2.0",
@@ -239,8 +239,8 @@
       "hash": "970d2798d6c33b65feb9b2734649a6652256fdec"
     },
     "be.nihiilus.anthonyroom": {
-      "revision": "52280668a7a862e8e34893b5721c51e14fb175fa",
-      "hash": "52280668a7a862e8e34893b5721c51e14fb175fa"
+      "revision": "HEAD",
+      "hash": "5e52c6612ec4a8ccdbd3635c8c204ad022a72934"
     },
     "be.noefalesse.magicroom": {
       "revision": "0425e4debd3faf3b31c0bd10b3336ea2ad1512e0",
@@ -252,11 +252,11 @@
     },
     "be.selimgrote.selimtoolbox": {
       "revision": "HEAD",
-      "hash": "bb030bcd47cf3a52f1847d2605cf4fabb5c71362"
+      "hash": "4f90aec5fd08ea7c6c29406755272bf7a43f35bf"
     },
     "be.snake0803.romainctoolbox": {
       "revision": "HEAD",
-      "hash": "c2ef88f8bc9e7ee796c491f43f8e6f3f3abdc8b4"
+      "hash": "aab6008d63487a4a2ecb1175253c79319427992e"
     },
     "be.thomas.dinner": {
       "revision": "e4b45f92575c4cfece3568371a38401efc8f785c",

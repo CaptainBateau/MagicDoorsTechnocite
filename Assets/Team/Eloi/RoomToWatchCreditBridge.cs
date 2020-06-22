@@ -58,11 +58,10 @@ public class RoomToWatchCreditBridge : MonoBehaviour
             bool found;
             VirtualRealityTags.GetClassicVrTag(VirtualRealityClassicTags.Head, out found, out m_playerHead);
         }
-        Debug.Log("A");
+        
         if (m_playerHead != null) {
             credits = credits.OrderBy(k => Vector3.Distance(m_playerHead.position, k.transform.position)).ToArray();
 
-            Debug.Log("B");
             if (credits.Length > 0)
                 nameID = credits[0].GetPseudonym();
         }
