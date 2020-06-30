@@ -42,7 +42,7 @@
     "be.minaoumzil.roomnumberonetest": "https://github.com/Medusart/2020_06_02_Mina_Oumzil.git#f87e1628434445a15102c57f96f8a8deb91080c5",
     "be.nevenaxel.testutility": "https://github.com/NevenAxel/NevenAxelToolBoxTechnocity.git",
     "be.nihiilus.anthonyroom": "https://github.com/Nihiilus/2020_06_02_MagicDoorRoom_Anthony.git",
-    "be.noefalesse.magicroom": "https://github.com/IkaNamTheIncongruous/Noe_Falesse_Git_Magicroom.git#0425e4debd3faf3b31c0bd10b3336ea2ad1512e0",
+    "be.noefalesse.magicroom": "https://github.com/IkaNamTheIncongruous/Noe_Falesse_Git_Magicroom.git#536712c0b6e1d23e0c20e413dd200028eb6449a9",
     "be.rhezom.toolboxdemo": "https://github.com/Rhezom/YohanToolBoxDemo.git",
     "be.selimgrote.selimtoolbox": "https://github.com/EloiStree/2020_06_21_SelimChains.git",
     "be.snake0803.romainctoolbox": "https://github.com/EloiStree/2020_06_15_RomainCreditSystem.git",
@@ -243,8 +243,8 @@
       "hash": "5e52c6612ec4a8ccdbd3635c8c204ad022a72934"
     },
     "be.noefalesse.magicroom": {
-      "revision": "0425e4debd3faf3b31c0bd10b3336ea2ad1512e0",
-      "hash": "0425e4debd3faf3b31c0bd10b3336ea2ad1512e0"
+      "revision": "536712c0b6e1d23e0c20e413dd200028eb6449a9",
+      "hash": "536712c0b6e1d23e0c20e413dd200028eb6449a9"
     },
     "be.rhezom.toolboxdemo": {
       "revision": "HEAD",
